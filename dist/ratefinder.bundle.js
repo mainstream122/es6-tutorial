@@ -1,0 +1,2 @@
+(()=>{"use strict";new Promise(((t,e)=>{e("No rates")})).then((t=>{let e="";t.forEach((t=>e+=`<tr><td>${t.name}</td><td>${t.years}</td><td>${t.rate}%</td></tr>`)),document.getElementById("rates").innerHTML=e})).catch((t=>console.log(t)))})();
+//# sourceMappingURL=ratefinder.bundle.js.map
